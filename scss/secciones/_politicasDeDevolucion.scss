@@ -1,0 +1,32 @@
+.titulo1{
+    grid-area: titulo1;
+    background-color:#DED4D2;
+    h1{
+        font-family: 'Antic', sans-serif;
+        color: black;
+        font-size: 50px;
+        padding: 20px;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.seccion1{
+    grid-area: secc1;
+    width:$ancho;
+    background-color:$color-rosa ;
+    display: flex;
+    justify-content:space-around;
+    .textoPoliticas{
+        flex-direction: column;
+        height: 800px;
+        width: 800px;
+        p{
+            font-family:'Antic', sans-serif ;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+}

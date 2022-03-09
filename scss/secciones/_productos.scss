@@ -1,0 +1,114 @@
+.titulo1{
+    grid-area: titulo1;
+    background-color:#DED4D2;
+    h1{
+        font-family: 'Antic', sans-serif;
+        color: black;
+        font-size: 50px;
+        padding: 20px;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.seccion1{
+    grid-area: secc1;
+    width:$ancho;
+    background-color:$color-rosa ;
+    display: flex;
+    justify-content:space-around;
+    .cuerpoCard{
+        background-color: rgb(255, 255, 255);
+        margin: 40px 30px;
+        width: 20vw;
+        height: 68vh;
+        border: solid white 1px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        transition: all 300ms ease;
+        &:hover{
+            transform: scale(1.1);
+	        box-shadow: 0px 0px 30px -15px rgb(70, 69, 69);
+        }
+        .descripcion{
+            margin-bottom: 15px;
+            .boton{
+                text-decoration: none;
+                color: white;
+                background: black;
+                padding: 15px;
+                margin: 20px;
+                border-radius: 5px;
+                align-items: center;
+                transition: all 0,2s;	
+                font-size: 18px;
+                &:hover{
+                    background: grey;
+                }
+            }
+        }
+    }
+}
+.seccion2{
+    grid-area: secc2;
+    background-color: #DED4D2;
+    display: flex;
+    justify-content: space-around;
+    .cuerpoCard{
+        background-color: rgb(255, 255, 255);
+        margin: 40px 30px;
+        width: 20vw;
+        height: 68vh;
+        border: solid white 1px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        transition: all 300ms ease;
+        &:hover{
+            transform: scale(1.1);
+	        box-shadow: 0px 0px 30px -15px rgb(70, 69, 69);
+        }
+        .descripcion{
+            margin-bottom: 10px;
+            .boton{
+                text-decoration: none;
+                color: white;
+                background: black;
+                padding: 10px;
+                border-radius: 5px;
+                align-items: center;
+                transition: all 0,2s;	
+                font-size: 18px;
+                &:hover{
+                    background: grey;
+                }
+            }
+        }
+    }
+}
+.seccion3{
+	grid-area: secc3;
+	background-color:#DED4D2;
+	padding: 10px;
+	margin: 0px 0px 3px 0px;
+	flex-direction:column;
+	display: flex;
+	align-items: center;
+    .tablaDeTalles{
+        background-color: white;
+        font-family: 'Antic', sans-serif;
+        font-size: 20px;
+        padding:20px;
+        margin:50px;
+        border: solid white 3px;
+        height: 300px;
+        width: 600px;
+        text-align: center;
+    }
+}
