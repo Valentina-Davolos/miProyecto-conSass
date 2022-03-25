@@ -1,32 +1,38 @@
 .titulo1{
     grid-area: titulo1;
-    background-color:#DED4D2;
+    background-color:$color-rosa;
     h1{
         font-family: 'Antic', sans-serif;
         color: black;
         font-size: 50px;
         padding: 20px;
-        margin: 50px 10px;
-        display: flex;
-        flex-direction: column;
+        margin: 20px 10px;
         text-align: center;
     }
 }
 .seccion1{
     grid-area: secc1;
     width:$ancho;
-    background-color:$color-rosa ;
     display: flex;
     justify-content:space-around;
-    .textoPoliticas{
-        flex-direction: column;
-        height: 800px;
-        width: 800px;
-        p{
-            font-family:'Antic', sans-serif ;
-            font-size: 25px;
-            padding: 10px;
-            margin: 10px;
+    .contenedorTexto{
+        background:#c7b9b7;
+        align-items: center;
+        display: flex;
+        height: 700px;
+        width: 900px;
+        border: solid 2px black;
+        border-radius: 5px;
+        .textoPoliticas{
+            flex-direction: column;
+            height: 600px;
+            width: 800px;
+            p{ 
+             font-family:'Antic', sans-serif ;
+	         font-size: 25px;
+	         padding: 10px;
+	         margin: 10px;
+           }
         }
     }
 }

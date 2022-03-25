@@ -21,7 +21,7 @@
 	margin:3px 3px 3px 3px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20vh 15vh 75vh 75vh 60vh 25vh;
+    grid-template-rows: 10vh 15vh 75vh 75vh 60vh 25vh;
     grid-template-areas: 
     "header header header header"
 	"titulo1 titulo1 titulo1 titulo1"
@@ -36,8 +36,8 @@
     border: 5px;
     margin:3px 3px 3px 3px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 20vh 15vh 50vh 70vh 25vh;
+    grid-template-columns: 100%;
+	grid-template-rows: 20vh 15vh 50vh 70vh  25vh;
 	grid-template-areas: 
 	"header header header header"
 	"titulo1 titulo1 titulo1 titulo1"
@@ -51,7 +51,7 @@
 	margin:3px 3px 3px 3px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20vh 15vh 90vh 25vh;
+    grid-template-rows: 15vh 15vh 100vh 25vh;
     grid-template-areas: 
     "header header header header"
 	"titulo1 titulo1 titulo1 titulo1"
@@ -65,7 +65,7 @@
 	margin:3px 3px 3px 3px;
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 15vh 15vh 90vh 25vh;
+	grid-template-rows: 10vh 15vh 90vh 25vh;
 	grid-template-areas: 
 	"header header header header"
 	"titulo1 titulo1 titulo1 titulo1"
